@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Day-1/Git.md",
-                "mode": "source",
+                "file": "Day-1/Projects.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git"
+              "title": "Projects"
             }
           }
         ]
@@ -185,8 +185,11 @@
   },
   "active": "f04c11569a89e16a",
   "lastOpenFiles": [
-    "Day-1/Day-1.md",
+    "Day-2/Day-2.md",
+    "Day-2/JS & React.md",
     "Day-1/Git.md",
+    "Day-1/Projects.md",
+    "Day-1/Day-1.md",
     "Welcome.md",
     "Day-1",
     "Untitled"
