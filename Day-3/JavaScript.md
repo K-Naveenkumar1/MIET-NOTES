@@ -267,7 +267,7 @@ const users = [
 
 ---
 
-## Important Array Methods (🔥 MERN CORE)
+## Important Array Methods ( MERN CORE)
 
 ### map()
 
@@ -287,7 +287,7 @@ users.filter(user => user.isAdmin);
 users.find(user => user.name === "A");
 ```
 
-👉 Used in:
+ Used in:
 
 - React rendering
     
