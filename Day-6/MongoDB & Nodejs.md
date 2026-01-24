@@ -97,7 +97,7 @@ User.create({ name: "Alex", email: "alex@example.com" });
 
 ---
 
-## 1. What is Node.js
+## 5. What is Node.js
 
 **Node.js** is a JavaScript runtime that allows you to run JavaScript **outside the browser**, mainly on the server.
 
@@ -119,7 +119,7 @@ Used for:
 
 ---
 
-## 2. Node.js Architecture (High Level)
+## 6. Node.js Architecture (High Level)
 
 Node.js works on a **single-threaded, asynchronous** model.
 
@@ -136,7 +136,7 @@ This allows Node.js to handle many requests efficiently.
 
 ---
 
-## 3. Modules in Node.js
+## 7. Modules in Node.js
 
 Node.js uses a **module system** to organize code.
 
@@ -163,7 +163,7 @@ This writes data to a file using Node.js.
 
 ---
 
-## 4. Creating a Simple Server (http module)
+## 8. Creating a Simple Server (http module)
 
 ```js
 const http = require("http");
@@ -187,7 +187,7 @@ This shows:
 
 ---
 
-## 5. Asynchronous Programming
+## 9. Asynchronous Programming
 
 Node.js uses **non-blocking asynchronous execution**.
 
@@ -221,7 +221,7 @@ Node.js continues execution while file is being read.
 
 ---
 
-## 6. Event Loop (Core Concept)
+## 10. Event Loop (Core Concept)
 
 The **event loop** handles:
 
@@ -258,7 +258,7 @@ This demonstrates non-blocking behavior.
 
 ---
 
-## 7. NPM (Node Package Manager)
+## 11. NPM (Node Package Manager)
 
 Used to install and manage packages.
 
@@ -271,7 +271,7 @@ npm install express
 
 ---
 
-## 8. Express.js Basics (Minimal Example)
+## 12. Express.js Basics (Minimal Example)
 
 Express is a framework built on Node.js to simplify server creation.
 
@@ -290,7 +290,7 @@ app.listen(3000, () => {
 
 ---
 
-## 9. Handling JSON and Middleware
+## 13. Handling JSON and Middleware
 
 ```js
 app.use(express.json());
@@ -304,7 +304,7 @@ Middleware processes requests before sending responses.
 
 ---
 
-## 10. Real-World Mini Example (API Logic)
+## 14. Real-World Mini Example (API Logic)
 
 ```js
 app.get("/users", (req, res) => {
@@ -340,7 +340,7 @@ project/
 
 ---
 
-## 1. MongoDB Configuration
+## 15. MongoDB Configuration
 
 ### `config/db.js`
 
@@ -363,7 +363,7 @@ Uses **MongoDB** connection.
 
 ---
 
-## 2. User Schema
+## 16. User Schema
 
 ### `db/user.js`
 
@@ -387,7 +387,7 @@ Uses **Mongoose**.
 
 ---
 
-## 3. CRUD Using HTTP Methods
+## 17. CRUD Using HTTP Methods
 
 ### `src/server.js`
 
