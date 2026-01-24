@@ -80,7 +80,7 @@ npm install react-router-dom
 ---
 
 ## Basic Setup (BrowserRouter)
-
+   
 Wrap your app with `BrowserRouter`.
 
 ### `main.jsx` or `index.js`
