@@ -476,12 +476,63 @@ GET http://localhost:3000/users
 PUT http://localhost:3000/users/<USER_ID>
 ```
 
-Body:
+Practice:
 
 ```json
-{
-  "age": 26
-}
+const express=require("express");
+
+const { default: User } = require("./src/models/user");
+
+const { default: mongoose } = require("mongoose");
+
+const app=express();
+
+  
+
+app.use(express.json());
+
+  
+
+app.get("/",(req,res)=>{
+
+    res.send("Hello World");
+
+});
+
+  
+
+app.post("/users",async (req, res) => {
+
+  const user = await User.create(req.body)
+
+    res.json(user);
+
+    console.log("user created")
+
+});
+
+app.put("/users/:id",async (req, res) => {
+
+  const user = await User.findByIdAndUpdate(req.params.id,req.body)
+
+    res.json(user);
+
+});
+
+  
+  
+
+app.listen(5000,()=>{
+
+    mongoose.connect("mongodb://localhost:27017/naveen")
+
+    .then(console.log("MongoDB connected"))
+
+    .catch((err) => console.log(err))
+
+    console.log("Server is running on port 5000");
+
+});
 ```
 
 ---
@@ -491,16 +542,5 @@ Body:
 ```
 DELETE http://localhost:3000/users/<USER_ID>
 ```
-
----
-
-## CRUD Mapping
-
-|HTTP Method|CRUD|Description|
-|---|---|---|
-|POST|Create|Insert new document|
-|GET|Read|Fetch documents|
-|PUT|Update|Modify document|
-|DELETE|Delete|Remove document|
 
 ---
