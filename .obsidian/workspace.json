@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Day-7/Password Hashing & Jwt Tokens.md",
-                "mode": "source",
+                "file": "Day-8&9/Backend.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Password Hashing & Jwt Tokens"
+              "title": "Backend"
             }
           }
         ],
@@ -215,8 +215,12 @@
   },
   "active": "5866ec0c8dca6762",
   "lastOpenFiles": [
-    "Day-6/MongoDB & Nodejs.md",
+    "Day-8&9/Frontend.md",
+    "Day-8&9/Project.md",
+    "Day-8&9/Backend.md",
     "Day-7/Password Hashing & Jwt Tokens.md",
+    "Day-8&9",
+    "Day-6/MongoDB & Nodejs.md",
     "Day-7",
     "Day-5/Mini-Project (React).md",
     "Day-6"
