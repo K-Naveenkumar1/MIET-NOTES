@@ -422,7 +422,7 @@ Request with Token
 **File:** authController.js
 ```javascript
 const User = require("../models/User");
-const bcrypt = require("bcryptjs");
+const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
 // ==================== SIGNUP ====================

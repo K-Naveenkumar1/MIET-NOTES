@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f452fdf134d6fbab",
@@ -215,9 +214,10 @@
   },
   "active": "5866ec0c8dca6762",
   "lastOpenFiles": [
+    "Day-1/Projects.md",
+    "Day-8&9/Backend.md",
     "Day-8&9/Frontend.md",
     "Day-8&9/Project.md",
-    "Day-8&9/Backend.md",
     "Day-7/Password Hashing & Jwt Tokens.md",
     "Day-8&9",
     "Day-6/MongoDB & Nodejs.md",
