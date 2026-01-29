@@ -293,7 +293,7 @@ body {
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router'
 import App from './App.jsx'
 import './index.css'
 
@@ -439,7 +439,7 @@ export default api;
 
 **File:** App.jsx
 ```jsx
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router";
 
 // Components
 import Nav from "./components/Nav";
@@ -510,7 +510,7 @@ URL:   /edit/507f1f77bcf86cd799439011
 
 **File:** Nav.jsx
 ```jsx
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router";
 
 const Nav = () => {
   const navigate = useNavigate();
@@ -627,7 +627,7 @@ export default Nav;
 
 **File:** BlogCard.jsx
 ```jsx
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router";
 import api from "../api/axios";
 
 const BlogCard = ({ blog, onDelete }) => {
@@ -913,7 +913,7 @@ export default Home;
 **File:** Signup.jsx
 ```jsx
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router";
 import api from "../api/axios";
 
 const Signup = () => {
@@ -1107,7 +1107,7 @@ State updates, input shows new value
 **File:** Login.jsx
 ```jsx
 import { useState } from "react";
-import { Link, useNavigate, useLocation } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router";
 import api from "../api/axios";
 
 const Login = () => {
@@ -1304,7 +1304,7 @@ localStorage.removeItem("user");
 **File:** CreateEdit.jsx
 ```jsx
 import { useState, useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router";
 import api from "../api/axios";
 
 const CreateEdit = () => {
